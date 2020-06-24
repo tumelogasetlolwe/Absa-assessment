@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationSuite">
+    <parameter name="FirstName" value="Poonam343"/>
+
+    <parameter name="LastName" value="Gy343"/>
+
+    <parameter name="UserName" value="poonamvg"/>
+
+    <parameter name="Password" value="pwd"/>
+    <parameter name="Role" value="Admin"/>
+    <parameter name="Email" value="Customer@mail.com"/>
+
+    <parameter name="Cell" value="1234546"/>
+    <test name="AutomationTest">
+
+        <classes>
+            <class name="WebTesting.AddUser_Approach_2"></class>
+            <class name="WebTesting.AddUser_Approach_1"></class>
+            <class name="ApiTesting.DogBreedAPITesting"></class>
+
+        </classes>
+    </test>
+</suite>
+
